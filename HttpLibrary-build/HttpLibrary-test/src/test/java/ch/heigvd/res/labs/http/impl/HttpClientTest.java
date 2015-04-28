@@ -48,7 +48,7 @@ public class HttpClientTest {
         
         valid.setMethod("GET");
         valid.setProtocolVersion("HTTP/1.0");
-        valid.setURI("www.google.com");
+        valid.setURI("www.heig-vd.ch/manamana");
         
         int status = client.sendRequest(valid).getStatus();
         

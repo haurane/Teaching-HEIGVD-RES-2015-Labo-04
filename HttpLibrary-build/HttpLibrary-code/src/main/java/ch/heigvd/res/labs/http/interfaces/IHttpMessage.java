@@ -17,5 +17,7 @@ public interface IHttpMessage {
     public byte[] getBody();
     public int getContentLength();
     public String getProtocolVersion();
+    public int getPort();
+    public String makeMessage();
     
 }
